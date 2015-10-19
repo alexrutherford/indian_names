@@ -16,7 +16,7 @@ SQL DB stores name, number of male and female occurrences, flag if name can be u
 
 | `name` | `male` | `female` | `unisex` | `country` | `region` | `lang` | `lang_detected` | `name_eng`
 |---------|-----|-----|------|----------|-------|---|-------|----|
-| احمد     | 99999 |      0 |      0 | PK      | asia   | ur   | ar            | Ahmed    |
+| احمد      | 99999 |      0 |      0 | PK      | asia   | ur   | ar            | Ahmed    |
 
 # Additional Datasources
 
