@@ -10,12 +10,13 @@ Borrows processed names from Argentina/Uruguay from [GitHub repo](https://github
 
 Many resources from this [blog post](https://civic.mit.edu/blog/natematias/best-practices-for-ethical-gender-research-at-very-large-scales)  
 
-#DB Schema
+# DB Schema
 
 SQL DB stores name, number of male and female occurrences, flag if name can be unisex, and country, region and language hints where available.
 
 | `name` | `male` | `female` | `unisex` | `country` | `region` | `lang` | `lang_detected` | `name_eng`
 |---------|-----|-----|------|----------|-------|---|-------|----|
+| احمد     | 99999 |      0 |      0 | PK      | asia   | ur   | ar            | Ahmed    |
 
 # Additional Datasources
 
