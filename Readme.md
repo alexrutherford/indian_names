@@ -25,3 +25,5 @@ SQL DB stores name, number of male and female occurrences, flag if name can be u
 # TODO
 
 1. Add in [Wilson binomial correction](https://en.wikipedia.org/wiki/Binomial_proportion_confidence_interval#Wilson_score_interval)  
+2. Add in url decomposition from [urlparse](https://docs.python.org/2/library/urlparse.html#module-urlparse)  
+3. Create fresh DB connections following [this recipe](https://github.com/coleifer/peewee/issues/464) to prevent timeout  
